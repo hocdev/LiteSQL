@@ -1,0 +1,8 @@
+﻿{
+  "version": "2.0.1",
+  "title": "LiteSQL 2025 v2.0.1",
+  "release_date": "2026-09-05",
+  "download_url": "https://github.com/hocdev/LiteSQL/releases",
+  "changelog": "• Tối ưu hóa hiệu năng khởi động SQL Server\n• Tự động kiểm tra phiên bản mới từ GitHub\n• Nâng cấp giao diện và sửa một số lỗi nhỏ",
+  "mandatory": false
+}
