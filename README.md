@@ -57,16 +57,6 @@ Built with **Rust** and **Slint GUI**, LiteSQL enables instant SQL Server deploy
 
 ---
 
-## 🖥️ Screenshot
-
-<p align="center">
-  <img src="assets/screenshot.png" alt="LiteSQL Main Interface" width="800"/>
-  <br>
-  <em>LiteSQL 2025 Running on Windows - Activity Log & Real-Time Status</em>
-</p>
-
----
-
 ## 📥 Quick Start
 
 ### 1. Requirements
@@ -225,16 +215,6 @@ This project is licensed under the [MIT License](LICENSE).
 - 🛠️ **Mở nhanh Query Analyzer (`isqlw`)**: Tự động tải về và mở công cụ Query Analyzer cổ điển với cơ chế tự đăng nhập tài khoản `sa`.
 - 🌐 **Đa ngôn ngữ**: Hỗ trợ sẵn Tiếng Việt, Tiếng Anh và Tiếng Trung Quốc tải động qua file Lua (`plugin/i18n.lua`).
 - 📥 **Mở rộng qua Plugin**: Dễ dàng tùy biến link tải và các phiên bản SQL Server qua `plugin/download.lua`.
-
----
-
-## 🖥️ Giao diện ứng dụng
-
-<p align="center">
-  <img src="assets/screenshot.png" alt="Giao diện LiteSQL 2025" width="800"/>
-  <br>
-  <em>Giao diện LiteSQL 2025 - Nhật ký hoạt động & Giám sát trạng thái theo thời gian thực</em>
-</p>
 
 ---
 
