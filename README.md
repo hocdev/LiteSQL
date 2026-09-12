@@ -5,10 +5,6 @@
 </p>
 
 <p align="center">
-  <img src="assets/screenshot.png" alt="LiteSQL 2025 Screenshot" width="760"/>
-</p>
-
-<p align="center">
   <img src="https://img.shields.io/badge/Rust-2021_Edition-orange?logo=rust" alt="Rust">
   <img src="https://img.shields.io/badge/GUI-Slint_UI-blue?logo=slint" alt="Slint">
   <img src="https://img.shields.io/badge/SQL_Server-2014_to_2025-red?logo=microsoftsqlserver" alt="SQL Server">
