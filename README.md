@@ -97,31 +97,6 @@ MaxMemory=0               # Max memory in MB (0 = unlimited)
 
 ---
 
-## 🔨 Building from Source
-
-### Prerequisites
-- [Rust & Cargo](https://rustup.rs/) (version 1.80 or newer recommended)
-- Windows SDK & MSVC Build Tools (Visual Studio 2019/2022 C++ build tools)
-
-### Build Steps
-
-```powershell
-# 1. Clone repository
-git clone https://github.com/hocdev/LiteSQL.git
-cd LiteSQL/litesql-rust
-
-# 2. Check code compilation
-cargo check
-
-# 3. Build optimized release binary
-cargo build --release
-
-# The compiled binary will be located at:
-# target/release/LiteSQL.exe
-```
-
----
-
 ## 📂 Project Structure
 
 ```
