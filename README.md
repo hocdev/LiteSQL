@@ -221,43 +221,6 @@ cargo build --release
 
 ---
 
-## 📂 Cấu trúc thư mục dự án
-
-```
-LiteSQL2025/
-│
-├── LiteSQL.exe                 # File thực thi chính của ứng dụng
-├── SConfig.ini                 # File cấu hình ứng dụng
-├── assets/
-│   └── screenshot.png          # Ảnh chụp màn hình giao diện
-├── MSSQL/                      # Bộ nhị phân & dữ liệu của SQL Server
-│   ├── Binn/                   # File sqlservr.exe và các thư viện lõi
-│   ├── DATA/                   # Các file cơ sở dữ liệu MDF và LDF
-│   ├── Log/                    # File nhật ký ERRORLOG
-│   ├── Backup/                 # Thư mục sao lưu mặc định (.BAK)
-│   └── isqlw/                  # Công cụ SQL Query Analyzer
-├── plugin/                     # Các plugin mở rộng bằng Lua
-│   ├── download.lua            # Link tải và danh sách phiên bản SQL Server
-│   └── i18n.lua                # Bộ từ điển đa ngôn ngữ (VI, EN, ZH)
-└── litesql-rust/               # Mã nguồn viết bằng Rust
-    ├── Cargo.toml
-    ├── build.rs
-    ├── src/
-    │   ├── main.rs             # Điểm khởi đầu ứng dụng & Mutex đơn phiên
-    │   ├── engine.rs           # Điều khiển tiến trình SQL & quản lý Firewall
-    │   ├── registry.rs         # Win32 Registry, ODBC & DBNETLIB Aliases
-    │   ├── sql_client.rs       # Client TDS bất đồng bộ (Tiberius) quản lý DB
-    │   ├── net_helper.rs       # Nhận diện IP LAN & bảng kết nối TCP
-    │   ├── tray.rs             # Khay hệ thống Windows thuần Win32
-    │   ├── ui_slint.rs         # Xử lý giao diện người dùng Slint
-    │   ├── installer.rs        # Tự động tải và giải nén công cụ
-    │   └── i18n.rs             # Trình nạp ngôn ngữ nhúng Lua
-    └── ui/
-        └── appwindow.slint     # File thiết kế giao diện Slint
-```
-
----
-
 ## 🔧 Xử lý sự cố thường gặp (Troubleshooting)
 
 ### 1. `[DBNETLIB][ConnectionOpen (Connect()).]SQL Server 不存在或拒绝访问。`
