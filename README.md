@@ -97,43 +97,6 @@ MaxMemory=0               # Max memory in MB (0 = unlimited)
 
 ---
 
-## 📂 Project Structure
-
-```
-LiteSQL2025/
-│
-├── LiteSQL.exe                 # Main portable executable
-├── SConfig.ini                 # Application configuration
-├── assets/
-│   └── screenshot.png          # UI Screenshot
-├── MSSQL/                      # SQL Server Binaries & Data
-│   ├── Binn/                   # sqlservr.exe and core engine DLLs
-│   ├── DATA/                   # MDF and LDF database files
-│   ├── Log/                    # ERRORLOG and event traces
-│   ├── Backup/                 # Default backup folder (.BAK)
-│   └── isqlw/                  # Query Analyzer tool
-├── plugin/                     # Extensible Lua plugins
-│   ├── download.lua            # CDN download links & SQL versions
-│   └── i18n.lua                # Multilingual translations (VI, EN, ZH)
-└── litesql-rust/               # Rust source code
-    ├── Cargo.toml
-    ├── build.rs
-    ├── src/
-    │   ├── main.rs             # Application entrypoint & single instance mutex
-    │   ├── engine.rs           # SQL Server process runner & firewall rules
-    │   ├── registry.rs         # Win32 registry, ODBC & DBNETLIB aliases
-    │   ├── sql_client.rs       # Async TDS client (Tiberius) for DB management
-    │   ├── net_helper.rs       # LAN IP detection & TCP table inspection
-    │   ├── tray.rs             # Native Win32 system tray message pump
-    │   ├── ui_slint.rs         # Slint UI callbacks and business logic
-    │   ├── installer.rs        # Auto-download & zip extractor for tools
-    │   └── i18n.rs             # Embedded Lua translation loader
-    └── ui/
-        └── appwindow.slint     # Modern Slint GUI layout
-```
-
----
-
 ## 🔧 Troubleshooting
 
 ### 1. `[DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied`
