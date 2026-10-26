@@ -1,16 +1,16 @@
 ﻿{
-  "version": "2.0.8",
+  "version": "2.0.9",
   "title": {
-    "vi": "LiteSQL 2025 v2.0.8",
-    "en": "LiteSQL 2025 v2.0.8",
-    "zh": "LiteSQL 2025 v2.0.8"
+    "vi": "LiteSQL 2025 v2.0.9",
+    "en": "LiteSQL 2025 v2.0.9",
+    "zh": "LiteSQL 2025 v2.0.9"
   },
   "release_date": "2026-09-05",
   "download_url": "https://github.com/hocdev/LiteSQL/releases",
   "changelog": {
-    "vi": "• Sửa lỗi đổi mật khẩu",
-    "en": "• Fixed password change",
-    "zh": "• 修复了密码修改功能"
+    "vi": "• Sửa lỗi sai đường dẫn",
+    "en": "• Fix incorrect file path",
+    "zh": "• 修正错误的文件路径"
   },
   "mandatory": false
 }
